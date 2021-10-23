@@ -58,7 +58,7 @@ function Landing() {
                 wrapper="p"
             />
             </div>
-            <button className="button button__colour"><Link to='about' smooth={true} duration={1000}> Know More</Link></button> 
+            <Link to='about' smooth={true} duration={1000}><button className="button button__colour"> Know More</button></Link>
         </div>
     
        </header> 

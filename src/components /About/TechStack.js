@@ -63,14 +63,13 @@ const techStack= [
   //   name: "Netlify",
   //   icon: SiNetlify,
   // },
-  
-  {
-    name: "Git",
-    icon: SiGit,
-  },
   {
     name: "Jest",
     icon: SiJest,
+  },
+  {
+    name: "Git",
+    icon: SiGit,
   },
 ];
 

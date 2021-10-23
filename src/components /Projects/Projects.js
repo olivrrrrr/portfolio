@@ -15,7 +15,7 @@ function Projects() {
           {
             id: 1, 
             projectTitle:'Portfolio', 
-            description:'Portfolio made using React and CSS, demonstrating my frontend capability and previous projects.', 
+            description:'Used React and CSS to create my personal portfolio website to demonstrate my frontend capabilities and some previous projects.', 
             source: `https://github.com/olivrrrrr/portfolio`, 
             live:``, 
             img:`${process.env.PUBLIC_URL}/assets/Portfolio.png`
