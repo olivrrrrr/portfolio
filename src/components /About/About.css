@@ -1,0 +1,74 @@
+.about {
+  width: 60em;
+  min-height: 100vh;
+  height: 100vh;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  /* width: 60em; */
+  border-top: 1px solid #00d100;
+  border-bottom: 1px solid #00d100;
+}
+
+.aboutme__title {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.about__text {
+  width: 50em;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+/* .about__text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about__text__intro,
+.about__text__techstack {
+  grid-column: 2/3;
+  width: 50em;
+  margin: 0 auto;
+  margin-top: 2em;
+} */
+
+.about__text__techstack__icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 0.5em;
+}
+
+.techicon {
+  text-align: center;
+}
+
+.techicon__logo {
+  font-size: 3em;
+}
+
+.resume {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.resume__green {
+  background-color: transparent;
+  border: 1px solid #00d100;
+  color: #00d100;
+  padding: 1em;
+}
+
+.resume:hover,
+.resume *:hover {
+  /* background-color: #00d100; */
+  border: 1px solid #00d100;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #00d100;
+}

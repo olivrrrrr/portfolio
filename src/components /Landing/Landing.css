@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161616;
+  color: #00d100;
+  font-family: connection, pixelBoy, source-code-pro, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  position: relative;
+  min-height: 100vh;
+  height: 100vh;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.landing__name,
+.landing__title,
+.button {
+  margin: 0.5em;
+}
+
+.landing {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.button__colour {
+  background-color: transparent;
+  border: 1px solid #00d100;
+  color: #00d100;
+  padding: 1em;
+}
+
+.button:hover {
+  /* background-color: #00d100; */
+  border: 1px solid #00d100;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.linkedin-social-link,
+.github-social-link {
+  margin-left: 0.25em;
+}
+
+.linkedin-social-link:hover,
+.github-social-link:hover {
+  color: #fff;
+}

@@ -1,0 +1,53 @@
+.featured-project {
+  width: 60em;
+  min-height: 100vh;
+  height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.featured-project-title {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.project {
+  display: flex;
+  height: 11.5em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.project__info {
+  width: 40em;
+}
+
+.project-description {
+  margin-bottom: 2em;
+}
+
+.see-live,
+.source-code {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  border: 1px solid #00d100;
+  color: #00d100;
+  padding: 1em;
+}
+
+.source-code {
+  margin-left: 6em;
+}
+
+.project__photo {
+  position: absolute;
+  right: 0;
+}
+
+.project__photo img {
+  width: 20em;
+  height: auto;
+}
