@@ -1,20 +1,13 @@
-.featured-project {
-  width: 60em;
-  min-height: 100vh;
-  height: 100vh;
-  height: 100%;
-  margin: 0 auto;
-}
-
 .featured-project-title {
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 2em;
 }
 
 .project {
   display: flex;
-  height: 11.5em;
+  /* justify-content: center; */
+  margin: 0 auto;
+  height: 12em;
   width: 100%;
   margin-bottom: 2em;
 }
@@ -47,7 +40,40 @@
   right: 0;
 }
 
-.project__photo img {
-  width: 20em;
-  height: auto;
+@media screen and (min-width: 1026px) {
+  .featured-project-title {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  .project__photo img {
+    width: 20em;
+    height: auto;
+  }
+
+  .project {
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: center; */
+    height: 11.5em;
+    width: 53%;
+    margin-bottom: 2em;
+  }
+  .see-live,
+  .source-code {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+    border: 1px solid #00d100;
+    color: #00d100;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .project__photo img {
+    display: none;
+  }
 }
