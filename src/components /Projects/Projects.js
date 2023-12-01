@@ -22,14 +22,6 @@ function Projects() {
         }, 
         {
             id: 2, 
-            projectTitle:'Book Tracker Application', 
-            description:'Used object-orientated JavaScript to make an interactive book tracker application. Incorporated the modular design pattern, IIFEs, the single responsibility principle and local storage.', 
-            source: `https://github.com/olivrrrrr/Book-tracker`, 
-            live:`https://olivrrrrr.github.io/Book-tracker/`, 
-            img:`${process.env.PUBLIC_URL}/assets/BookTracker.png`
-        },
-        {
-            id: 3, 
             projectTitle:'ChemDataExtractor', 
             description:'For my final year masters project, I worked in Python to automate the extraction of chiral information from scientific literature by adding a feature to an open-source Natural Language Processing (NLP) project. ', 
             source: `https://github.com/olivrrrrr/ChemDataExtractor`, 
