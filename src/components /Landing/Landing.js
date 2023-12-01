@@ -53,7 +53,7 @@ function Landing() {
           </h2>
             <div className="landing__title">
                  <Typical
-                steps={['Full Stack Software Engineer', 500]}
+                steps={['iOS Developer', 500]}
                 loop={Infinity}
                 wrapper="p"
             />
